@@ -1,9 +1,9 @@
 def cal_average(num):
-    touches = 0
+    pass = 0
     for t in num:
-        touches = touches + t
+        pass = pass + t
 
-    avg = touches / len(num)
+    avg = sum  / len(num)
     return avg
 
 print("SPM:", cal_average([18, 19, 16, 22, 20]))
